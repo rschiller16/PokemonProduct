@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    color: darkblue;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: darkblue;
+    border-bottom: 2px solid white;
+    z-index: 1;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    line-height: 80px;
+}
+
+.home {
+    margin-top: 80px;
+    height: 600px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.home h1 {
+    padding-top: 250px;
+    color: darkblue;
+}
+
+.content {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    background-color: white;
+    color: darkblue;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.products img {
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
